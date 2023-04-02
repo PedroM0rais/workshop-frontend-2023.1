@@ -1,0 +1,51 @@
+h1 {
+    font-size: 2.8em;
+    line-height: 1.1;
+    color: rgb(198, 247, 204);
+  }
+
+body {
+    display: block;
+    margin: 0px;
+ }
+
+ header{
+    background-color: #1a1a1a;
+    border-radius: 8px;
+ }
+
+ img {
+    width: 180px;
+    height: 150px;
+ }
+
+.cabecalho{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: #1a1a1a;
+    background-color: rgba(28, 148, 28, 0.815);
+    transition-duration: .3s;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 2.7rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo {
+    color: #1a1a1a;
+}
